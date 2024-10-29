@@ -1,0 +1,67 @@
+body {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 50%;
+}
+h1 {
+  color: greenyellow;
+}
+p {
+  color: white;
+}
+
+.game {
+  background-color: rgba(0, 0, 0, 0.7);
+  backdrop-filter: blur(5px);
+  margin-left: 500px;
+  text-align: center;
+  margin-top: 200px;
+  max-width: 300px;
+  padding-bottom: 50px;
+  padding-top: 30px;
+  box-shadow: 5px 10px darkorange;
+  border-radius: 15px;
+}
+.play {
+  background-color: darkorange;
+  padding: 5px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  font-family: roboto, sans-serif;
+}
+h1 {
+  font-family: roboto, sans-serif;
+}
+p {
+  font-family: sans-serif;
+}
+.play:hover {
+  background-color: white;
+  color: black;
+}
+
+h3 {
+  margin-top: 35px;
+}
+.menu {
+  display: flex;
+  margin-left: 450px;
+  margin-top: 170px;
+  background-color: black;
+  padding-left: 200px;
+}
+.space {
+  margin-right: 30px;
+  font-family: roboto, sans-serif;
+  font-size: 25px;
+  padding: 10px;
+  background-color: darkgreen;
+}
+.now {
+  text-decoration: none;
+  color: white;
+  font-family: roboto, sans-serif;
+  font-size: 25px;
+}

@@ -1,0 +1,23 @@
+<html>
+  <head>
+    <title>main</title>
+    <link rel="stylesheet" href="main.css" />
+  </head>
+
+  <body background="background.jpg">
+    <div class="bike">
+      <img id="myimage" src="car.png" />
+    </div>
+    <script>
+      document.addEventListener("keydown", function (event) {{
+        if (event.key === "j")
+          const image = document.getElementById("myimage");
+        }
+        image.style.transform = "translateY(-20px)";
+        setTimeout(() => {
+          image.style.transform = "translateY(0px)";
+        }, 500);
+      );
+    </script>
+  </body>
+</html>

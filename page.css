@@ -1,0 +1,21 @@
+body {
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  background-color: darkorange;
+  padding: 15px;
+}
+h3 {
+  font-family: roboto, sans-serif;
+  margin-top: 600px;
+  margin-left: 1300px;
+}
+
+a:hover {
+  color: black;
+  background-color: white;
+}
