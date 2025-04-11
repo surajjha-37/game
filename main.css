@@ -2,20 +2,74 @@ body {
   background-size: 100% 100%;
   background-repeat: repeat-x;
   background-position: 0px;
+}
+.car {
+  height: 150px;
+  width: 300px;
+}
+.carpng {
+  margin-left: 100px;
+  margin-bottom: -75px;
+}
+.bike {
+  display: flex;
+  flex-direction: column;
+  margin-top: 60vh;
+  width: 500px;
+}
+.width {
+  display: flex;
+  justify-content: space-evenly;
+  width: 500px;
+}
+.animate-bg {
   animation: movebackground 5s linear infinite;
 }
-
 @keyframes movebackground {
   0% {
     background-position: 500px;
   }
+
   100% {
-    background-position: -2000px;
+    background-position: -3000px;
   }
 }
+.tyre,
+.tyre2 {
+  height: 60px;
+  width: 60px;
+}
+.tyre-1 {
+  animation: spin 2s linear infinite;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
 
-#myimage {
-  margin-left: 50px;
-  margin-top: 400px;
-  position: absolute;
+  100% {
+    transform: rotate(720deg);
+  }
+}
+.btn-1,
+.btn-2 {
+  height: 50px;
+  width: 50px;
+  border-radius: 15px;
+  color: black;
+  background-color: grey;
+}
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+#counter {
+  color: black;
+  background-color: yellow;
+  padding: 5px;
+  border-radius: 5px;
+}
+.sp-1 {
+  color: rgb(210, 13, 46);
+  font-weight: bold;
 }
