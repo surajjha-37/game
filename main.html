@@ -5,19 +5,23 @@
   </head>
 
   <body background="background.jpg">
-    <div class="bike">
-      <img id="myimage" src="car.png" />
+    <div class="flex">
+      <audio id="audio" src="audio.mp3" preload="auto"></audio>
+
+      <button class="btn-1">start</button>
+      <p id="counter"><span class="sp-1">Score:</span> 0 Km</p>
+      <button class="btn-2">stop</button>
     </div>
-    <script>
-      document.addEventListener("keydown", function (event) {{
-        if (event.key === "j")
-          const image = document.getElementById("myimage");
-        }
-        image.style.transform = "translateY(-20px)";
-        setTimeout(() => {
-          image.style.transform = "translateY(0px)";
-        }, 500);
-      );
-    </script>
+
+    <div class="bike">
+      <div class="carpng">
+        <img class="car" src="car.png" alt="loading" />
+      </div>
+      <div class="width">
+        <img class="tyre" src="tyre.png" />
+        <img class="tyre2" src="tyre copy.png" />
+      </div>
+    </div>
+    <script src="./main.js"></script>
   </body>
 </html>
